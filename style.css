@@ -85,15 +85,28 @@
   text-align: center;
   margin: 50px 150px;
 }
+.service h1 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
 .card-section {
   display: flex;
   margin: 50px 0;
-  gap: 30px;
+  gap: 50px;
 }
 
-.card{
+.card {
   background: #ffffff;
   border-radius: 20px;
-  padding: 20px;
-  box-shadow: 0px 3px 5px ;
+  padding: 30px;
+  box-shadow: 0px 3px 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.card i {
+  color: #0077b6;
+  font-size: 50px;
+}
+.card h3{
+  font-size: 25px;
+  font-weight: bold;
 }
