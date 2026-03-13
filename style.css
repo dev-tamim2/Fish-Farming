@@ -106,7 +106,52 @@
   color: #0077b6;
   font-size: 50px;
 }
-.card h3{
+.card h3 {
   font-size: 25px;
   font-weight: bold;
+}
+.farming-process {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  background-color: #f0faff; /* Light blue background */
+  padding: 50px 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.process-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allows steps to wrap on mobile */
+  gap: 20px;
+}
+
+.step {
+  width: 180px;
+}
+
+.step .icon {
+  font-size: 40px;
+  color: #2cabbb; /* Matching the teal/blue icon color */
+  margin-bottom: 15px;
+}
+
+.step h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 2rem;
+  color: #abdbe3;
 }
